@@ -1,0 +1,83 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+
+Html,body{
+    height: 100% !important;
+    width: 100% !important;
+    font-family: 'Open Sans', sans-serif !important;
+    font-size: 2vh !important;
+}
+
+#navbarmenu{
+    background-color:dimgrey;
+    width: 100%;
+}
+
+.navbar-brand{
+    margin-left: 20px !important; 
+}
+
+.d-flex{
+    margin-top: 90px !important;
+    margin-right: 30px !important;
+}
+
+#txts3{
+    margin-top: 15px;
+}
+
+#txt1{
+    float: left;
+    margin-left: 20px;  
+}
+
+#form1 a{
+    width: 200px;
+    float: left;
+}
+
+#form1{
+    width: 300px;
+    margin:20px;
+    float: right;
+    display: flex;
+}
+
+menu{
+    margin-top: 100px;
+    overflow: auto;   
+}
+
+.card{
+    height: 60vh;
+    margin-bottom: 50px;
+    text-align: justify;
+}
+
+.card h5{
+    float: right;
+}
+
+footer{
+    width: 100% !important;
+    text-align: center;
+    height: 500px;
+    background-color: dimgrey;
+    display: block;
+    margin: 0px;
+    clear: both;
+}
+
+footer p, footer a{
+    color: black;
+    text-align:justify;
+}
+
+footer address{
+    margin-top: 10vh;
+    text-align: center !important;
+}
+
+footer address a{ 
+    text-decoration: none !important;
+}
